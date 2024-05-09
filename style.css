@@ -1,0 +1,93 @@
+p#gone {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.aoi {
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2bdfe2;
+}
+
+#nav {
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(234, 234, 241);
+    margin: 0px auto;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav ul li {
+    border: 1px solid black;
+    width: 70px;
+    display: inline;
+    padding: 10px;
+}
+
+#nav ul li a:link {
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul li a:active {
+    text-decoration: none;
+    color: red;
+}
+
+#Container {
+    border: 1px solid black;
+    width: 700px;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+    line-height: 25px;
+    text-align: center;
+}
+
+#You {
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    left: 0px;
+    position: fixed;
+    text-align: left;
+}
+
+#Me {
+    border: 1px solid black;
+    color: rgb(15, 191, 207);
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    padding: 20px 25px 30px 10px;
+    color: #F0FFFF;
+}
+
+#Iam {
+    border: 1px solid black;
+    color: rgb(175, 198, 62);
+    width: 100%;
+    height: auto;
+    background-color: cyan;
+    margin-top: 20px;
+}
